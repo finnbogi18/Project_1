@@ -4,23 +4,25 @@
         <title>Project 1</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
-        <div id="header1">
-            <a href="" id="hire">Hire</a> <a href="" id="fire">Fire</a>
-            <form action="site.html"  method="post" id="form">
-                <input type="search" name="search" placeholder="Search Person..." id="search">
-                <input type="submit" value="Search" id="button">
-            </form>
-        </div>
-
+        <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
     </head>
     <body>
+        <div id="header1">
+            <a href="" id="hire">Hire</a> <a href="" id="fire">Fire</a>
+            <form action="site.html"  method="post" id="searchform">
+                <input type="search" name="search" placeholder="Search Person..." id="search">
+                <button type="submit" form="searchform" id="button">Search</button>
+            </form>
+            <p id="burger">&equiv;</p>
+        </div>
+
         <div class="flex-container">
             <div class="flex-item">
                 <div class="left">
                     <img src="data/pers1.png" alt="Pete" class="image">
-                    <b>Person 1</b>
+                    <p><b>Person 1</b></p>
                 </div>
 
                 <div class="right">
@@ -33,12 +35,12 @@
             <div class="flex-item">
                 <div class="left">
                     <img src="data/pers2.png" alt="Stacy" class="image">
-                    <b>Person 2</b>
+                    <p><b>Person 2</b></p>
                 </div>
                 <div class="right">
                     <p><b>Role</b>: Team Lead</p>
-                    <p><b>Joined</b>: Apr 2008</p>
                     <p><b>Department</b>: Tech</p>
+                    <p><b>Joined</b>: Apr 2008</p>
                 </div>
 
             </div>
@@ -58,7 +60,7 @@
             <div class="flex-item">
                 <div class="left">
                     <img src="data/pers4.png" alt="Hans" class="image">
-                    <b>Person 4</b>
+                    <p><b>Person 4</b></p>
                 </div>
 
                 <div class="right">
@@ -80,23 +82,24 @@
                 </div>
             </div>
         </div>
+
+        <footer>
+            <div class="foot">
+                <div id="about">
+                    <p class="head2"><b>ABOUT US</b></p>
+                    <div>Staff Inc. is dedicated to making your management life easier! 
+                    All your employees' details on a single screen. Hiring, firing, 
+                    retiring - just a click away.</div>
+                </div>
+                <div id="contact">
+                    <p class="head2"><b>CONTACT</b></p>
+                    <p class="p1">Staff Inc.</p>
+                    <p class="p1">Industrial Ave 201</p>
+                    <p class="p1">1102 Down Town</p>
+                    <p class="p1">Tel: 001 555 444 12</p>
+                    <p class="p1"><a href="mailto:contact@staff.inc">contact@staff.is</a></p>
+                </div>
+            </div>
+        </footer>
     </body>
-    <footer>
-        <div class="foot">
-            <div id="about">
-                <p class="head2"><b>ABOUT US</b></p>
-                <div>Staff Inc. is dedicated to making your management life easier! 
-                All your employees' details on a single screen. Hiring, firing, 
-                retiring - just a click away.</div>
-            </div>
-            <div id="contact">
-                <p class="head2"><b>CONTACT</b></p>
-                <p class="p1">Staff Inc.</p>
-                <p class="p1">Industrial Ave 201</p>
-                <p class="p1">1102 Down Town</p>
-                <p class="p1">Tel: 001 555 444 12</p>
-                <p class="p1"><a href="mailto:contact@staff.inc">contact@staff.is</a></p>
-            </div>
-        </div>
-    </footer>
 </html>
