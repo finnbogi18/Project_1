@@ -171,6 +171,7 @@
      .flex-container {
           flex-direction: column;
           width: 100%;
+          min-width: 400px;
      }
      .foot {
           font-size: small;
